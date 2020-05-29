@@ -151,10 +151,10 @@ contract StandardToken is Token {
 }
 
 contract DappChannel is StandardToken {
-    string public constant name = "Dapp Channel";
-    string public constant symbol = "DAC";
+    string public constant name = "Reliable Network";
+    string public constant symbol = "RAN";
     uint256 public constant decimals = 18;
-    uint256 public constant INITIAL_SUPPLY = 88888888 * (10**decimals);
+    uint256 public constant INITIAL_SUPPLY = 100000000 * (10**decimals);
     address public tokenWallet;
 
     constructor() public {
